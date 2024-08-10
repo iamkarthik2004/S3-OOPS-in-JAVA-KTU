@@ -22,10 +22,10 @@ class Employee
 	
 	void PrintEmployee()
 	{
-		System.out.println("\nName: " + name);
-		System.out.println("\nAge: " + Age);
-		System.out.println("\nAddress: " + address);
-		System.out.println("\nPhone Number: " + phone_num);
+		System.out.println("Name: " + name);
+		System.out.println("Age: " + Age);
+		System.out.println("Address: " + address);
+		System.out.println("Phone Number: " + phone_num);
 	}
 	
 	
