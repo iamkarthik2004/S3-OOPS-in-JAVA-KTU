@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Bodoni+Moda+SC&size=30&pause=1000&width=435&lines=S3-OOPS-in-JAVA-LAB_SJCET_23-27;KTU+KSL+203;SYLLABUS+-+2019+KTU+SCHEME)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Bodoni+Moda+SC&size=30&pause=1000&width=435&lines=S3-OOPS-in-JAVA-LAB_SJCET_23-27;CYCLE+1+&+2;SYLLABUS+-+2019+KTU+SCHEME)](https://git.io/typing-svg)
 
 Cycle 1
 1. PALINDROME [ 26/07/2024 ]
