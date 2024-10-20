@@ -10,10 +10,15 @@ Cycle 1
 7. USAGE OF SUPER AND OVERRIDING [ 16/08/2024 ]
 
 Cycle 2
-1. Interface [ 23/08/2024 ]
-2. Exception Handling in JAVA (Arithmetic Exception) [ 25/09/2024 ]
-3. Custom Exception [ 25/09/2024 ]
-4. File Reader / Writer [ ]
-5. File Exception Handling [16 - 09 - 2024 ]
-6. Multi threadinG
-7. String Tokenizer 
+1. INTERFACE [ 23/08/2024 ]
+2. EXCEPTION HANDLING IN JAVA (Arithmetic Exception) [ 25/09/2024 ]
+3. CUSTOM EXCEPTION [ 25/09/2024 ]
+4. STRING TOKENIZER [ ]
+5. FILE HANDLING WITH FILE READER/FILE WRITER [ ]
+6. FILE EXCEPTION HANDLING [16 - 09 - 2024 ]
+7. MULTITHREADING [ ]
+8. THREAD SYNCHRONIZATION [ ]
+9. SWING IMPLEMENTATION [ ]
+10. GRAPHICS PROGRAMMING [ ]
+11. QUICK SORT [ ]
+12. DOUBLY LINKED LIST [ ]
