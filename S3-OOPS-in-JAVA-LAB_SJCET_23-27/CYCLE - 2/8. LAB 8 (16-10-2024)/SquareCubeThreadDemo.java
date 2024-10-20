@@ -10,7 +10,7 @@ class SquareThread extends Thread
 	}
 	public void run()
 	{
-		square = num*num
+		square = num*num;
 		System.out.println("Square of " + num + " = " + square);
 	}
 }
@@ -24,7 +24,7 @@ class CubeThread extends Thread
 	}
 	public void run()
 	{
-		cube = num*num*num
+		cube = num*num*num;
 		System.out.println("Cube of " + num + " = " + cube);
 	}
 	
