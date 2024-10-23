@@ -1,6 +1,13 @@
+/*
+ 19-10-2024
+ SATUARDAY
+
+ GUI CALCULATOR
+ */
 package oopj24csb45;
 import java.awt.event.*;
 import javax.swing.*;
+
 public class GUICalculator implements ActionListener{
 
 	JTextField t1;
@@ -14,166 +21,90 @@ public class GUICalculator implements ActionListener{
 	{
 
 	JFrame f = new JFrame("My Calculator");
-
 	JPanel p = new JPanel();
-
+	
 	t1 = new JTextField();
-
 	b0=new JButton("0");
-
 	b1=new JButton("1");
-
 	b2=new JButton("2");
-
 	b3=new JButton("3");
-
 	b4=new JButton("4");
-
 	b5=new JButton("5");
-
 	b6=new JButton("6");
-
 	b7=new JButton("7");
-
 	b8=new JButton("8");
-
 	b9=new JButton("9");
-
+	
 	badd=new JButton("+");
-
 	bsub=new JButton("-");
-
 	bmul=new JButton("*");
-
 	bdiv=new JButton("/");
-
 	beq=new JButton("=");
-
 	bclr=new JButton("C");
 	
-	
-	
 	t1.setBounds(100,100,200,30);
-
 	b1.setBounds(100,140,50,30);
-
 	b2.setBounds(150,140,50,30);
-
 	b3.setBounds(200,140,50,30);
-
 	b4.setBounds(100,180,50,30);
-
 	b5.setBounds(150,180,50,30);
-
 	b6.setBounds(200,180,50,30);
-
 	b7.setBounds(100,220,50,30);
-
 	b8.setBounds(150,220,50,30);
-
 	b9.setBounds(200,220,50,30);
-
 	b0.setBounds(100,260,50,30);
-
 	
-
 	badd.setBounds(250,140,50,30);
-
 	bsub.setBounds(250,180,50,30);
-
 	bmul.setBounds(250,220,50,30);
-
 	bdiv.setBounds(250,260,50,30);
-
 	beq.setBounds(200,260,50,30);
-
 	bclr.setBounds(150,260,50,30);
 
-	
-
 	p.add(t1);
-
 	p.add(b0);
-
 	p.add(b1);
-
 	p.add(b2);
-
 	p.add(b3);
-
 	p.add(b4);
-
 	p.add(b5);
-
 	p.add(b6);
-
 	p.add(b7);
-
 	p.add(b8);
-
 	p.add(b9);
-
+	
 	p.add(badd);
-
 	p.add(bsub);
-
 	p.add(bmul);
-
 	p.add(bdiv);
-
 	p.add(beq);
-
 	p.add(bclr);
 	
-
 	f.add(p);
 	
-
 	b0.addActionListener(this);
-
 	b1.addActionListener(this);
-
 	b2.addActionListener(this);
-
 	b3.addActionListener(this);
-
 	b4.addActionListener(this);
-
 	b5.addActionListener(this);
-
 	b6.addActionListener(this);
-
 	b7.addActionListener(this);
-
 	b8.addActionListener(this);
-
 	b9.addActionListener(this);
-
+	
 	badd.addActionListener(this);
-
 	bsub.addActionListener(this);
-
 	bmul.addActionListener(this);
-
 	bdiv.addActionListener(this);
-
 	beq.addActionListener(this);
-
 	bclr.addActionListener(this);
 
-	
-
 	f.setSize(400,400);
-
 	p.setLayout(null);
-
 	f.setVisible(true);
-
 	f.setResizable(false);
 	}
-
-	
-
 	
 	public void actionPerformed(ActionEvent e) {
 	    if (e.getSource() == b0) t1.setText(t1.getText() + "0");
@@ -205,8 +136,6 @@ public class GUICalculator implements ActionListener{
 	        operator = 4; // Division
 	        t1.setText("");
 	    }
-
-	    // Clear the text field
 	    else if (e.getSource() == bclr) {
 	        t1.setText("");
 	    }
@@ -238,15 +167,9 @@ public class GUICalculator implements ActionListener{
 
 
 	public static void main(String[] args) {
-
 		// TODO Auto-generated method stub
-
 		new GUICalculator();
 
-
-
 	}
-
-
 
 }
