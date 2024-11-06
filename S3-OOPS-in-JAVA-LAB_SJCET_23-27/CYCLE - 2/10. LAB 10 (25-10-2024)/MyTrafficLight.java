@@ -11,6 +11,7 @@ public class MyTrafficLight extends JFrame implements ActionListener {
 	
 	MyTrafficLight()
 	{
+		super("Traffic Light"); //Initialize j with a title TRAFFIC LIGHT
 		R1 = new JRadioButton("Red");
 		R1.setBounds(20,20,90,90);
 		R2 = new JRadioButton("Yellow");
